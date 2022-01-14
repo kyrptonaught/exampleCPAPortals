@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.kyrptonaught.exampleCPAPortals.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "CropBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

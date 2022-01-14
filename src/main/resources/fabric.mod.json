@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "examplecpaportals",
+  "version": "0.0.1-1.18",
+  "name": "Example CPA Portals",
+  "description": "Examples of Portals made using CPA",
+  "authors": [
+    "kyrptonaught"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/exampleCPAPortals",
+    "sources": "https://github.com/kyrptonaught/exampleCPAPortals"
+  },
+  "license": "MIT",
+  "icon": "assets/exampleCPAPortals/icon.png",
+  "environment": "*",
+  "mixins": [
+    {
+      "config": "exampleCPAPortals.mixins.json",
+      "environment": "*"
+    }
+  ],
+  "entrypoints": {
+    "main": [
+      "net.kyrptonaught.exampleCPAPortals.ExampleCPAPortalsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "fabric": "*",
+    "java": ">=17"
+  }
+}
